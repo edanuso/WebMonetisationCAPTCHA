@@ -1,0 +1,101 @@
+canvas{
+    width: 300px;
+}
+.yoruba__captcha{
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    top: 0;
+    z-index: 30;
+}
+body{
+    overflow-x: hidden;
+}
+.main__captcha{
+    width: 300px;
+    background-color: white;
+    padding: 1em;
+}
+.captcha__logo{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+    margin-bottom: .7em;
+    color:black;
+}
+.captcha__placeholder{
+    width: 100%;
+    height: 60px;
+    background: rgb(224, 224, 224);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.captcha__input{
+    display: block;
+    margin: 1em 0;
+    width: 98%;
+    padding: .5em;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    outline: none;
+    text-align: center;
+    display: block;
+}
+.captcha__message{
+    display: block;
+    margin-bottom: 1em;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+/* error colors */
+.error{
+ color: red;
+}
+.success{
+    color:green;
+}
+.accented__characters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3em;
+}
+.accented__character{
+    background: black;
+    padding: .2em .5em;
+    display: block;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    text-align: center;
+
+}
+.captcha__btn{
+    display: block;
+    margin: 1em 0;
+    background-color: black;
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: inherit;
+    padding: 1em 0;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+/*  */
